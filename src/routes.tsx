@@ -9,7 +9,7 @@ export default function AppRoutes() {
       <GlobalStyle />
       <Router>
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="*" element={<Index />} />
         </Routes>
       </Router>
     </React.Fragment>
