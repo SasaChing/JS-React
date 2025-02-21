@@ -140,4 +140,4 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
     font-family: Arial, sans-serif;
     font-size: 16px;
   }
-`;function Bb(){return qt.jsxs(Je.Fragment,{children:[qt.jsx(Hb,{}),qt.jsx(dS,{children:qt.jsx(X1,{children:qt.jsx(Cm,{path:"/",element:qt.jsx(Ub,{})})})})]})}const am=document.getElementById("root");am?Xp.createRoot(am).render(qt.jsx(C.StrictMode,{children:qt.jsx(ng,{store:Fg,children:qt.jsx(Bb,{})})})):console.error("Root element not found");
+`;function Bb(){return qt.jsxs(Je.Fragment,{children:[qt.jsx(Hb,{}),qt.jsx(dS,{basename:"/JS-React",children:qt.jsx(X1,{children:qt.jsx(Cm,{path:"/",element:qt.jsx(Ub,{})})})})]})}const am=document.getElementById("root");am?Xp.createRoot(am).render(qt.jsx(C.StrictMode,{children:qt.jsx(ng,{store:Fg,children:qt.jsx(Bb,{})})})):console.error("Root element not found");
